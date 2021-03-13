@@ -1,0 +1,72 @@
+.backgroundImg {
+}
+
+.nav-container {
+  background-color: rgb(44, 47, 49);
+  width: 100%;
+  height: 20%;
+
+  justify-content: space-between;
+  /** TODO: further stylization of nave bar */
+}
+
+.nav-options {
+  display: flex;
+  top: 0;
+  margin: 0 5vh 0 5vh;
+  justify-content: space-between;
+}
+
+.nav-options a {
+  color: rgb(189, 97, 97);
+  text-decoration: none;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  position: absolute;
+
+  overflow: hidden;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+
+  /**background-position: 0 10%;*/
+  background-image: url("/img/AdobeStock_309120828.jpg");
+  background-repeat: no-repeat;
+}
+
+.left-info-pane {
+  text-align: center;
+  color: cornflowerblue;
+
+  position: relative;
+  border: 1px solid red;
+  width: 30vw;
+  height: 35vh;
+  /**margin: 5vh 2vw; */
+}
+.right-info-pane {
+  text-align: center;
+  color: cornflowerblue;
+
+  position: relative;
+  border: 1px solid red;
+  width: 30vw;
+  height: 35vh;
+  /** margin: 5vh 2vw;*/
+  /**left: 66vw;*/
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  background-color: rgb(44, 47, 49);
+  text-align: center;
+  border: 1px solid red;
+  color: cornflowerblue;
+}
