@@ -48,7 +48,8 @@ main {
 
 .left-info-pane {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.075);
+  background-color: rgba(255, 255, 255, 0.185);
+  border-radius: 3%;
   color: cornflowerblue;
 
   position: relative;
@@ -59,7 +60,8 @@ main {
 }
 .right-info-pane {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.075);
+  background-color: rgba(255, 255, 255, 0.185);
+  border-radius: 3%;
   color: cornflowerblue;
 
   position: relative;
