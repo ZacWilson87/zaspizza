@@ -33,7 +33,7 @@ header{
 }
 
 .nav-options a {
-  color: rgb(189, 97, 97);
+  color: rgb(207, 207, 207);
   text-decoration: none;
 }
 
@@ -46,8 +46,8 @@ main {
   height: 100%;
   width: 100%;
 }
+
 .info-wrapper{
-  
   display: flex;
   justify-content: space-around;
   top: 10vh;
@@ -57,8 +57,8 @@ main {
 .left-info-pane {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.089);
-  border-radius: 3%;
-  color: cornflowerblue;
+  border-radius: 2%;
+  color:  rgb(207, 207, 207);
 
   position: relative;
   
@@ -71,15 +71,15 @@ main {
   position: fixed;
   
   
-  max-height: 12em;
-  max-width: 12em;
+  max-height: 20em;
+  max-width: 20em;
   
 }
 .right-info-pane {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.089);
-  border-radius: 3%;
-  color: cornflowerblue;
+  border-radius: 2%;
+  color:  rgb(207, 207, 207);
 
   position: relative;
   
@@ -94,5 +94,5 @@ footer {
   background-color: rgb(44, 47, 49);
   text-align: center;
   box-shadow: inset #fff;
-  color: rgb(46, 81, 148);
+  color: rgb(207, 207, 207);
 }
