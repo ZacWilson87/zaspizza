@@ -55,6 +55,7 @@ main {
   width: 100%;
 }
 
+/*
 #menuCollapsible {
   display: flex;
   position: relative;
@@ -68,8 +69,7 @@ main {
 
   background-color: rgb(44, 47, 49);
 }
-
-/*
+*/
 .info-wrapper {
   display: flex;
   justify-content: space-around;
@@ -78,7 +78,6 @@ main {
   margin-inline: -10%;
   overflow-y: auto;
 }
-*/
 
 .left-info-pane {
   text-align: center;
