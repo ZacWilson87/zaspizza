@@ -54,17 +54,31 @@ main {
   height: 100%;
   width: 100%;
 }
-p {
-  margin-left: 5%;
-  margin-right: 5%;
+
+#menuCollapsible {
+  display: flex;
+  position: relative;
+  width: 10vw;
+  height: 8vh;
+  top: 0;
+  left: 6%;
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgb(44, 47, 49);
 }
+
+/*
 .info-wrapper {
   display: flex;
   justify-content: space-around;
   top: 10vh;
   position: relative;
   margin-inline: -10%;
+  overflow-y: auto;
 }
+*/
 
 .left-info-pane {
   text-align: center;
@@ -72,12 +86,21 @@ p {
   border-radius: 2%;
   color: rgb(207, 207, 207);
 
+  overflow-y: auto;
   position: relative;
 
   width: 30vw;
   height: 40vh;
   /**margin: 5vh 2vw; */
 }
+
+.left-info-pane p,
+.right-info-pane p {
+  font-size: 2vh;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 .logo-wrapper {
   position: fixed;
   width: 20%;
@@ -97,6 +120,7 @@ p {
   color: rgb(207, 207, 207);
 
   position: relative;
+  overflow-y: auto;
 
   width: 30vw;
   height: 40vh;
@@ -106,6 +130,7 @@ footer {
   bottom: 0;
   left: 0;
   width: 100vw;
+  height: 4vh;
   background-color: rgb(44, 47, 49);
   text-align: right;
 
