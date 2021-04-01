@@ -1,17 +1,24 @@
-//import { alertFunction } from './test.js'  //figure more on this later
 
+//Navbar functionality
+
+//navbar "menu"
 const menu = document.getElementById("menu");
+const menuRolledOut = document.getElementById("menuCollapsible");
 menu.addEventListener("mouseover", () => {
-    const menuRolledOut = document.getElementById("menuCollapsible");
     menuRolledOut.style = "display: flex";
-    console.log("hover function worked")
-});
 
+});
+menu.onfocus
 menu.addEventListener("mouseout", () => {
-    const menuRolledOut = document.getElementById("menuCollapsible");
     menuRolledOut.style = "display: none";
-    console.log("hover function worked")
+
 });
 
-
-
+//navbar 
+//TODO bring forward collapsible menus on Z axis, make other buttons and collapsibles
+menuRolledOut.addEventListener("mouseover", () => {
+    menuRolledOut.style = "display: flex";
+});
+menuRolledOut.addEventListener("mouseout", () => {
+    menuRolledOut.style = "display: none";
+});
