@@ -29,7 +29,6 @@ header {
   height: 5vh;
   width: 100%;
   box-shadow: 0px -5px 10px 2px white;
-  /** TODO: further stylization of nave bar */
 }
 
 .nav-options {
@@ -53,10 +52,7 @@ li {
   list-style-type: none;
 }
 
-#menu {
-  color: rgb(43, 226, 58);
-}
-
+/* navbar links*/
 button {
   background-color: rgb(44, 47, 49);
   font-size: 100%;
@@ -73,7 +69,7 @@ button {
   width: 10vw;
   height: 8vh;
   top: 5vh;
-  left: 6%;
+  left: 4%;
 
   align-items: center;
   justify-content: center;
@@ -82,7 +78,56 @@ button {
   background-color: rgb(44, 47, 49);
 }
 
-#menuCollapsible a {
+#orderNowCollapsible {
+  display: none;
+  position: fixed;
+  width: 10vw;
+  height: 9vh;
+  top: 5vh;
+  left: 25%;
+
+  align-items: center;
+  justify-content: center;
+
+  color: blue;
+  background-color: rgb(44, 47, 49);
+}
+
+#orderNowCollapsible a {
+  margin: 1vh;
+}
+
+#jobsCollapsible {
+  display: none;
+  position: fixed;
+  width: 10vw;
+  height: 8vh;
+  top: 5vh;
+  left: 65.5%;
+
+  align-items: center;
+  justify-content: center;
+
+  color: blue;
+  background-color: rgb(44, 47, 49);
+}
+
+#contactCollapsible {
+  display: none;
+  position: fixed;
+  width: 10vw;
+  height: 8vh;
+  top: 5vh;
+  left: 86%;
+
+  align-items: center;
+  justify-content: center;
+
+  color: blue;
+  background-color: rgb(44, 47, 49);
+}
+
+a {
   text-decoration: none;
   color: rgb(207, 207, 207);
 }
@@ -90,7 +135,7 @@ button {
 .info-wrapper {
   display: flex;
   justify-content: space-around;
-  top: 10vh;
+  top: 12vh;
   position: relative;
   margin-inline: -10%;
   overflow-y: auto;
