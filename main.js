@@ -16,7 +16,7 @@ menuRolledOut.addEventListener("mouseout", () => {
     menuRolledOut.style = "display: none";
 });
 //navbar orderNow
-//TODO bring forward collapsible menus on Z axis, work on menu logic for mobile
+//TODO work on menu logic for mobile
 const orderNow = document.getElementById("orderNow");
 const orderNowRolledOut = document.getElementById("orderNowCollapsible")
 
